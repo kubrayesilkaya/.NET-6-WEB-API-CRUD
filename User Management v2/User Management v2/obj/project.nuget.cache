@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xkykXQtR5k3jcZQDYtd3S08OqeD9qa2JQZNhp7Fz+cdJc6NwR4Sj3Qs6iPxp8SDAspN8+FDXl+MjF2+l+D+QbA==",
+  "dgSpecHash": "14Utakw+Ajxet44NZ1xBtSzkxt/dA3fJsx9l63dzOmiYGyEB756gxPauBgi6uXKvgkjUgaUJ/sCtiSSkyW/0Qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kubra\\Desktop\\User Management v2\\User Management v2\\User Management v2.csproj",
+  "projectFilePath": "C:\\Users\\kubra\\Documents\\GitHub\\.NET-6-WEB-API-CRUD\\User Management v2\\User Management v2\\User Management v2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kubra\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\kubra\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -55,6 +55,7 @@ namespace User_Management_v2.Controllers
             if (user == null)
             {
                 return NotFound("invalid user!");
+                //return BadRequest();
             }
 
             _dbContext.Users.Remove(user);
@@ -71,6 +72,7 @@ namespace User_Management_v2.Controllers
             if (user == null)
             {
                 return NotFound("invalid user!");
+                //return BadReques();
             }
 
             user.USERNAME = updatedtUser.USERNAME;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kubra\\Desktop\\User Management v2\\User Management v2\\User Management v2.csproj": {}
+    "C:\\Users\\kubra\\Documents\\GitHub\\.NET-6-WEB-API-CRUD\\User Management v2\\User Management v2\\User Management v2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kubra\\Desktop\\User Management v2\\User Management v2\\User Management v2.csproj": {
+    "C:\\Users\\kubra\\Documents\\GitHub\\.NET-6-WEB-API-CRUD\\User Management v2\\User Management v2\\User Management v2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kubra\\Desktop\\User Management v2\\User Management v2\\User Management v2.csproj",
+        "projectUniqueName": "C:\\Users\\kubra\\Documents\\GitHub\\.NET-6-WEB-API-CRUD\\User Management v2\\User Management v2\\User Management v2.csproj",
         "projectName": "User Management v2",
-        "projectPath": "C:\\Users\\kubra\\Desktop\\User Management v2\\User Management v2\\User Management v2.csproj",
+        "projectPath": "C:\\Users\\kubra\\Documents\\GitHub\\.NET-6-WEB-API-CRUD\\User Management v2\\User Management v2\\User Management v2.csproj",
         "packagesPath": "C:\\Users\\kubra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kubra\\Desktop\\User Management v2\\User Management v2\\obj\\",
+        "outputPath": "C:\\Users\\kubra\\Documents\\GitHub\\.NET-6-WEB-API-CRUD\\User Management v2\\User Management v2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kubra\\AppData\\Roaming\\NuGet\\NuGet.Config",
