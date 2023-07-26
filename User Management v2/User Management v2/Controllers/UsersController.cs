@@ -34,7 +34,7 @@ namespace User_Management_v2.Controllers
         [HttpPost]
         public ActionResult<IEnumerable<Users>> AddUser([FromBody] Users newUser)
         {
-            var user = _dbContext.Users.FirstOrDefault(u => u.ID_USER == newUser.ID_USER);
+            var user = _dbContext.Users.FirstOrDefault(u => u.E_MAIL == newUser.E_MAIL); 
 
             if (user != null)
             {
@@ -58,10 +58,22 @@ namespace User_Management_v2.Controllers
                 //return BadRequest();
             }
 
-            _dbContext.Users.Remove(user);
-            _dbContext.SaveChanges();
+            if(user.IS_DELETED == false)
+            {
+                user.IS_DELETED = true;
+                _dbContext.SaveChanges();
 
-            return Ok("the user is deleted successfully");
+                return Ok("the user is deleted successfully");
+            }
+            else
+            {
+                return Ok("this user is deleted before!");
+            }
+
+            
+            
+
+            
         }
 
         [HttpPut("{id}")]

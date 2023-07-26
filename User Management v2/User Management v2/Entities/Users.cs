@@ -9,6 +9,9 @@ namespace User_Management_v2.Entities
 
         public string USERNAME { get; set; }
         public string PASSWORD { get; set; }
+        public bool IS_DELETED { get; set; }
+        public string E_MAIL { get; set; }
+
 
     }
 }
