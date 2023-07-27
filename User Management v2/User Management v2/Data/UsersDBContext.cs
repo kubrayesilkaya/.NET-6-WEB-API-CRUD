@@ -9,6 +9,9 @@ namespace User_Management_v2.Data
         {
         }
         public DbSet<Users> Users { get; set; }
+        
+        //DbSet<TEntity> formatında sınıflarımızı contex'e göndermeliyiz ki; Entity Framework,
+        //DB tarafındaki hangi tabloyu code tarafındaki hangis sınıf ile eşleştireceğini bilsin.
 
     }
 }
