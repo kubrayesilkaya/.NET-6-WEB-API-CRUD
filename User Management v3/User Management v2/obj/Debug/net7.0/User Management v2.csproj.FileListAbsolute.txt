@@ -74,3 +74,4 @@ C:\Users\kubra\Desktop\User Management v2\User Management v2\obj\Debug\net7.0\re
 C:\Users\kubra\Desktop\User Management v2\User Management v2\obj\Debug\net7.0\User Management v2.pdb
 C:\Users\kubra\Desktop\User Management v2\User Management v2\obj\Debug\net7.0\User Management v2.genruntimeconfig.cache
 C:\Users\kubra\Desktop\User Management v2\User Management v2\obj\Debug\net7.0\ref\User Management v2.dll
+C:\Users\kubra\Desktop\User Management v2\User Management v2\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
