@@ -33,8 +33,7 @@ namespace User_Management_v2.Controllers
         }
 
         [Tags("READ | ID değeri ile kullanıcı görüntüle :")]
-        [Route("[action]/{id}")]
-        [HttpGet]
+        [HttpGet("GetUsersByID")]
         public ActionResult<Users> GetUsersByID(int id)
         {
             var user = _userService.GetUsersByID(id);
